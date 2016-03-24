@@ -1,0 +1,89 @@
+2014-03-22 18:23:39 INFO simulated_annealing Process Id: 4235
+2014-03-22 18:23:39 INFO simulated_annealing Seed: 415 - randomly selected
+2014-03-22 18:23:39 INFO simulated_annealing Otml configuration manager with:
+ALLOW_CANDIDATES_WITH_CHANGED_SEGMENTS: False
+CLEAR_MODULES_CACHING_INTERVAL: 50
+CONSTRAINT_INSERTION_WEIGHTS: Phonotactic: 1
+                              Ident: 0
+                              Dep: 1
+                              Max: 1
+CONSTRAINT_SET_FILE_NAME: 
+CONSTRAINT_SET_MUTATION_WEIGHTS: insert_constraint: 1
+                                 remove_constraint: 1
+                                 demote_constraint: 1
+                                 insert_feature_bundle_phonotactic_constraint: 1
+                                 augment_feature_bundle: 0
+                                 remove_feature_bundle_phonotactic_constraint: 1
+COOLING_PARAMETER: 0.999985
+CORPUS_DUPLICATION_FACTOR: 1
+CORPUS_FILE_NAME: 
+DATA_ENCODING_LENGTH_MULTIPLIER: 100
+DEBUG_LOGGING_INTERVAL: 50
+FEATURE_TABLE_FILE_NAME: 
+GRAMMAR_ENCODING_LENGTH_MULTIPLIER: 1
+INITIAL_NUMBER_OF_BUNDLES_IN_PHONOTACTIC_CONSTRAINT: 1
+INITIAL_NUMBER_OF_FEATURES: 1
+INITIAL_TEMPERATURE: 100
+LEXICON_MUTATION_WEIGHTS: delete_segment: 1
+                          insert_segment: 1
+                          change_segment: 0
+LOG_FILE_NAME: 
+MAX_FEATURES_IN_BUNDLE: inf
+MAX_FEATURE_BUNDLES_IN_PHONOTACTIC_CONSTRAINT: inf
+MAX_NUMBER_OF_CONSTRAINTS_IN_CONSTRAINT_SET: inf
+MIN_FEATURE_BUNDLES_IN_PHONOTACTIC_CONSTRAINT: 1
+MIN_NUMBER_OF_CONSTRAINTS_IN_CONSTRAINT_SET: 1
+RANDOM_POSITION_FOR_FEATURE_BUNDLE_INSERTION_IN_PHONOTACTIC: True
+RANDOM_POSITION_FOR_FEATURE_BUNDLE_REMOVAL_IN_PHONOTACTIC: True
+RANDOM_SEED: True
+RESTRICTION_ON_ALPHABET: True
+SEED: 0
+SIMULATION_NAME: 
+STEPS_LIMITATION: inf
+THRESHOLD: 0.01
+2014-03-22 18:23:39 INFO simulated_annealing Feature Table with 7 features and 7 segments:
+Segment/Feature     syll      low       stop      voice     long      asp       back      
+:                   -         -         -         -         +         -         -         
+a                   +         +         -         -         -         -         -         
+d                   -         -         -         +         -         -         -         
+h                   -         -         -         -         -         +         -         
+i                   +         -         -         -         -         -         -         
+t                   -         -         +         -         -         -         -         
+u                   +         -         -         -         -         -         +         
+
+2014-03-22 18:23:39 INFO simulated_annealing Number of expected steps is: 614,019
+2014-03-22 18:23:40 INFO simulated_annealing Grammar with: Constraint Set: Faith[]:
+2014-03-22 18:23:40 INFO simulated_annealing Alphabet: [':', 'u', 't', 'i', 'h', 'a', 'd']
+2014-03-22 18:23:40 INFO simulated_annealing Lexicon, number of words: 200, number of segments: 1243
+2014-03-22 18:23:40 INFO simulated_annealing Parse: 
+2014-03-22 18:23:40 INFO simulated_annealing Energy: 164,371 bits (Grammar = 4,371) + (Data = 160,000)
+2014-03-22 18:23:42 INFO simulated_annealing 
+-----------------------------------------------------------------------------------------------------------------------------
+2014-03-22 18:23:42 INFO simulated_annealing Step 50 of 614,019 (0.01%)
+2014-03-22 18:23:42 INFO simulated_annealing --------------------------------------------------------------------------------
+2014-03-22 18:23:42 INFO simulated_annealing Time from simulation start: 3 seconds
+2014-03-22 18:23:42 INFO simulated_annealing Expected simulation time: 11 hours, 1 minutes, 57 seconds 
+2014-03-22 18:23:42 INFO simulated_annealing Current temperature: 99.92502755588622
+2014-03-22 18:23:42 INFO simulated_annealing Grammar with: Constraint Set: Dep[+back] >> Faith[]:
+2014-03-22 18:23:42 INFO simulated_annealing Alphabet: [':', 'u', 't', 'i', 'h', 'a', 'd']
+2014-03-22 18:23:42 INFO simulated_annealing Lexicon, number of words: 200, number of segments: 1243
+2014-03-22 18:23:42 INFO simulated_annealing Parse: 
+2014-03-22 18:23:42 INFO simulated_annealing Energy: 164,391 bits (Grammar = 4,391) + (Data = 160,000)
+2014-03-22 18:23:42 INFO simulated_annealing Energy difference from last interval: 20
+2014-03-22 18:23:42 INFO simulated_annealing Time from last interval: 3 seconds
+2014-03-22 18:23:42 INFO simulated_annealing Time to finish based on current interval: 11 hours, 1 minutes, 53 seconds
+2014-03-22 18:23:45 INFO simulated_annealing 
+-----------------------------------------------------------------------------------------------------------------------------
+2014-03-22 18:23:45 INFO simulated_annealing Step 100 of 614,019 (0.02%)
+2014-03-22 18:23:45 INFO simulated_annealing --------------------------------------------------------------------------------
+2014-03-22 18:23:45 INFO simulated_annealing Time from simulation start: 6 seconds
+2014-03-22 18:23:45 INFO simulated_annealing Expected simulation time: 10 hours, 37 minutes, 24 seconds 
+2014-03-22 18:23:45 INFO simulated_annealing Current temperature: 99.85011132044616
+2014-03-22 18:23:45 INFO simulated_annealing Grammar with: Constraint Set: Faith[]:
+2014-03-22 18:23:45 INFO simulated_annealing Alphabet: [':', 'u', 't', 'i', 'h', 'a', 'd']
+2014-03-22 18:23:45 INFO simulated_annealing Lexicon, number of words: 200, number of segments: 1243
+2014-03-22 18:23:45 INFO simulated_annealing Parse: 
+2014-03-22 18:23:45 INFO simulated_annealing Energy: 164,371 bits (Grammar = 4,371) + (Data = 160,000)
+2014-03-22 18:23:45 INFO simulated_annealing Energy difference from last interval: -20
+2014-03-22 18:23:45 INFO simulated_annealing Time from last interval: 2 seconds
+2014-03-22 18:23:45 INFO simulated_annealing Time to finish based on current interval: 10 hours, 12 minutes, 45 seconds

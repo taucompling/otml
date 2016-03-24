@@ -1,0 +1,40 @@
+[
+    {
+        "typ": "Phonotactic",
+        "bundles":
+            [
+                {
+                    "cons":"+",
+                    "labial":"+"
+                },
+                {
+                    "cons":"+"
+                },
+                {
+                    "cons":"+"
+                }
+            ]
+    },
+    {
+        "type": "Ident",
+        "bundle":
+        {
+            "syll":"-"
+        }
+    },
+    {
+        "type": "Dep",
+        "bundle":
+        {
+            "cons":"+"
+        }
+    },
+    {
+        "type": "Max",
+        "bundle":
+        {
+            "cons":"-",
+            "syll":"-"
+        }
+    }
+]

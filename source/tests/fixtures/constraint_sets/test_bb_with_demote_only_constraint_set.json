@@ -1,0 +1,51 @@
+[
+    {
+        "type": "Max",
+        "bundles":
+            [
+                {
+                "cons":"-"
+                }
+            ]
+    },
+    {
+        "type": "Max",
+        "bundles":
+            [
+                {
+                "cons":"+"
+                }
+            ]
+    },
+    {
+        "type": "Dep",
+        "bundles":
+            [
+                {
+                "cons":"-"
+                }
+            ]
+    },
+    {
+        "type": "Dep",
+        "bundles":
+            [
+                {
+                "cons":"+"
+                }
+            ]
+    },
+    {
+        "type": "Phonotactic",
+        "bundles":
+            [
+                {
+                    "cons":"+"
+
+                },
+                {
+                    "cons":"+"
+                }
+            ]
+    }
+]

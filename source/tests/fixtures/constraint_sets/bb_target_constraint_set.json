@@ -1,0 +1,37 @@
+[
+     {
+        "type": "Max",
+        "bundles":
+            [
+                {
+                "cons":"+"
+                }
+            ]
+    },
+    {
+        "type": "Phonotactic",
+        "bundles":
+            [
+                {
+                    "cons":"+"
+
+                },
+                {
+                    "cons":"+"
+                }
+            ]
+    },
+    {
+        "type": "Faith",
+        "bundles":[]
+    },
+    {
+        "type": "Dep",
+        "bundles":
+            [
+                {
+                "cons":"-"
+                }
+            ]
+    }
+]

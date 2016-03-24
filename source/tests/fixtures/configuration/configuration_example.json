@@ -1,0 +1,8 @@
+{
+    "PROPERTY1":"spam",
+    "PROPERTY2":2,
+    "PROPERTY3":{
+        "SUB_PROPERTY1": "True",
+        "SUB_PROPERTY2": "False"
+    }
+}

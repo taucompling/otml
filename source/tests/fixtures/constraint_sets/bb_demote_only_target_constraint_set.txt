@@ -1,0 +1,1 @@
+Max[+cons] >> Max[-cons] >> Phonotactic[[+cons][+cons]] >> Dep[-cons] >> Dep[+cons]

@@ -1,0 +1,1 @@
+Phonotactic[[+stress][+cons]] >> Max[+cons] >> HeadDep[] >> Phonotactic[[+cons][+cons]] >> MainLeft[] >> Precede[] >> Max[-cons] >> Dep[-high] >> Dep[+labial] >> Faith[]

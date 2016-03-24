@@ -1,0 +1,82 @@
+[
+     {
+        "type": "Phonotactic",
+        "bundles":
+            [
+                {
+                    "stress":"+"
+
+                },
+                {
+                    "cons":"+"
+                }
+            ]
+    },
+    {
+        "type": "Max",
+        "bundles":
+            [
+                {
+                "syll":"+"
+                }
+            ]
+    },
+    {
+        "type": "Max",
+        "bundles":
+            [
+                {
+                "syll":"-"
+                }
+            ]
+    },
+    {
+        "type": "HeadDep",
+        "bundles":[]
+    },
+    {
+        "type": "Phonotactic",
+        "bundles":
+            [
+                {
+                    "cons":"+"
+
+                },
+                {
+                    "cons":"+"
+                }
+            ]
+    },
+    {
+        "type": "MainLeft",
+        "bundles":[]
+    },
+    {
+        "type": "Precede",
+        "bundles":[]
+    },
+    {
+        "type": "Dep",
+        "bundles":
+            [
+                {
+                "stress":"-"
+                }
+            ]
+    },
+
+    {
+        "type": "Dep",
+        "bundles":
+            [
+                {
+                "stress":"+"
+                }
+            ]
+    },
+     {
+        "type": "Faith",
+        "bundles":[]
+    }
+
+]

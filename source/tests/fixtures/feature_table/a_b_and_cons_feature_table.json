@@ -1,0 +1,14 @@
+{
+    "feature":
+    [
+        {
+            "label": "cons",
+            "values": ["-","+"]
+        }
+    ],
+    "feature_table":
+    {
+        "a": ["-"],
+        "b": ["+"]
+}
+}

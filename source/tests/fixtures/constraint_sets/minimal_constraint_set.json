@@ -1,0 +1,22 @@
+[
+
+    {
+        "type": "Dep",
+        "bundles":
+            [
+                {
+                "son":"+"
+                }
+            ]
+    },
+    {
+        "type": "Max",
+        "bundles":
+            [
+                {
+                "syll":"-",
+                "son":"+"
+                }
+            ]
+    }
+]

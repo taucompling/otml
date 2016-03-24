@@ -1,0 +1,56 @@
+{
+    "SIMULATION_NAME": "",
+
+    "CONSTRAINT_SET_FILE_NAME": "",
+    "FEATURE_TABLE_FILE_NAME":"",
+    "CORPUS_FILE_NAME": "",
+
+    "LOG_FILE_NAME":"",
+    "LOG_LEXICON_WORDS": "True",
+
+    "CORPUS_DUPLICATION_FACTOR": 1,
+
+    "ALLOW_CANDIDATES_WITH_CHANGED_SEGMENTS": "False",
+
+    "RESTRICTION_ON_ALPHABET": "False",
+
+    "MAX_NUMBER_OF_CONSTRAINTS_IN_CONSTRAINT_SET":"INF",
+    "MIN_NUMBER_OF_CONSTRAINTS_IN_CONSTRAINT_SET": 1,
+    "MAX_FEATURE_BUNDLES_IN_PHONOTACTIC_CONSTRAINT": 2,
+    "MIN_FEATURE_BUNDLES_IN_PHONOTACTIC_CONSTRAINT": 1,
+    "MAX_FEATURES_IN_BUNDLE":"INF",
+    "INITIAL_NUMBER_OF_FEATURES": 1,
+    "INITIAL_NUMBER_OF_BUNDLES_IN_PHONOTACTIC_CONSTRAINT": 1,
+    "RANDOM_POSITION_FOR_FEATURE_BUNDLE_INSERTION_IN_PHONOTACTIC": "True",
+    "RANDOM_POSITION_FOR_FEATURE_BUNDLE_REMOVAL_IN_PHONOTACTIC": "True",
+
+    "LEXICON_MUTATION_WEIGHTS": {
+    "insert_segment": 1,
+    "delete_segment": 1,
+    "change_segment": 0},
+    "CONSTRAINT_SET_MUTATION_WEIGHTS": {
+    "insert_constraint": 1,
+    "remove_constraint": 1,
+    "demote_constraint": 1,
+    "insert_feature_bundle_phonotactic_constraint": 1,
+    "remove_feature_bundle_phonotactic_constraint": 1,
+    "augment_feature_bundle": 0},
+    "CONSTRAINT_INSERTION_WEIGHTS": {
+    "Dep": 0,
+    "Max": 1,
+    "Ident": 0,
+    "Phonotactic": 1},
+
+    "INITIAL_TEMPERATURE": 100,
+    "THRESHOLD": "10**-2",
+    "COOLING_PARAMETER": 0.999,
+    "DEBUG_LOGGING_INTERVAL": 50,
+    "CLEAR_MODULES_CACHING_INTERVAL": 50,
+    "STEPS_LIMITATION": "INF",
+
+    "RANDOM_SEED": "True",
+    "SEED": 0,
+
+    "DATA_ENCODING_LENGTH_MULTIPLIER": 100 ,
+    "GRAMMAR_ENCODING_LENGTH_MULTIPLIER": 1
+}

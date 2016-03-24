@@ -1,0 +1,82 @@
+[
+        {
+        "type": "Dep",
+        "bundles":
+            [
+                {
+                "syll":"+"
+                }
+            ]
+    },
+     {
+        "type": "Max",
+        "bundles":
+            [
+                {
+                "syll":"+"
+                }
+            ]
+    },
+     {
+        "type": "Max",
+        "bundles":
+            [
+                {
+                "syll":"-"
+                }
+            ]
+    },{
+        "type": "Dep",
+        "bundles":
+            [
+                {
+                "long":"-"
+                }
+            ]
+    },
+     {
+        "type": "Faith",
+        "bundles":[]
+    },
+    {
+        "type": "Phonotactic",
+        "bundles":
+            [
+                {
+                    "syll":"-"
+
+                },
+                {
+                    "asp":"-"
+                }
+            ]
+    },
+       {
+        "type": "Phonotactic",
+        "bundles":
+            [
+                {
+                    "stop":"+",
+                    "voice":"-"
+
+                },
+                {
+                    "syll":"+"
+                }
+            ]
+    },
+      {
+        "type": "Phonotactic",
+        "bundles":
+            [
+                {
+                    "syll":"+"
+
+                },
+                {
+                    "stop":"+",
+                    "voice":"+"
+                }
+            ]
+    }
+]
